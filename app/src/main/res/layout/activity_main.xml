@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    tools:context="com.prembros.questions.MainActivity">
+
+    <Button
+        android:id="@+id/button_question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_1"
+        android:padding="16dp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/button_question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_2"
+        android:onClick="onClick"/>
+
+</LinearLayout>
